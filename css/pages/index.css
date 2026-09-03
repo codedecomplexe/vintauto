@@ -1,0 +1,83 @@
+.hero{
+    height: 75vh;
+    background: url("./../../assets/Images/hero.jpg") top/cover;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.hero div{
+    max-width: 30%;
+    margin-left: 20px;
+}
+.hero h2{
+    color: white;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.hero a{
+    height: 30px;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+   border: 1px solid white;
+   border-radius: 5px;
+}
+/* Section discover */
+.discover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.discover div{
+    max-width: 50%;
+    padding: 20px;
+}
+.discover div p{
+    margin-bottom: 15px;
+}
+.discover a{
+    height: 30px;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+   border: 1px solid white;
+   border-radius: 5px;
+}
+/* Section cards */
+.cardWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    max-width: 1200px;
+    margin: auto;
+}
+.cardWrapper .card{
+    width: 400px;
+    height: 100%;
+ border: 1px solid gray;
+ border-radius: 5px;
+}
+.cardWrapper .card .card-body{
+    padding: 10px;
+}
+.cardWrapper .card .card-body button{
+    background-color: blueviolet;
+    padding: 5px;
+    color: white;
+    margin-top: 10px;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+/* Section ads */
+.ads{
+    height: 80vh;
+    margin-top: 10px;
+    background-image: url("./../../assets/Images/ads.png");
+    background-position: center;
+    background-size: cover;
+}
