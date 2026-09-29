@@ -5,7 +5,7 @@ main h1{
 }
 .mainContainer{
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 35% 64%;
     grid-template-rows: 65vh;
     gap: 10px;
     justify-content: center;
